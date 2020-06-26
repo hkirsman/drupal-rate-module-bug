@@ -30,6 +30,7 @@ module:
   path: 0
   path_alias: 0
   quickedit: 0
+  rate: 0
   rdf: 0
   search: 0
   shortcut: 0
@@ -40,6 +41,7 @@ module:
   tour: 0
   user: 0
   views_ui: 0
+  votingapi: 0
   views: 10
   standard: 1000
 theme:
