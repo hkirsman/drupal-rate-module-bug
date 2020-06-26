@@ -1,0 +1,5 @@
+name: rate-module-bug
+recipe: drupal8
+config:
+  webroot: web
+  php: '7.3'
