@@ -1,0 +1,27 @@
+uuid: d1db1492-29f1-45c7-84dc-c87e820ab19a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_list_field
+field_name: field_list_field
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: !!float 0
+      label: one
+    -
+      value: !!float 1
+      label: two
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

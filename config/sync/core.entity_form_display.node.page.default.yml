@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_list_field
     - node.type.page
   module:
     - path
@@ -31,6 +32,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_list_field:
+    weight: 121
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   path:
     type: path
     weight: 30

@@ -1,0 +1,30 @@
+uuid: 87eb522d-d78c-4a5c-a651-17fd1c734675
+langcode: en
+status: true
+dependencies: {  }
+id: simple
+label: Simple
+template: thumbsupdown
+entity_types:
+  - node.page
+comment_types: {  }
+options:
+  -
+    value: '1'
+    label: Up
+    class: ''
+  -
+    value: '-1'
+    label: Down
+    class: ''
+display:
+  display_label: ''
+  label_class: ''
+  label_position: above
+  description: ''
+  description_class: ''
+  description_position: below
+  readonly: 0
+results:
+  result_position: right
+  result_type: user_vote_empty
